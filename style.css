@@ -1,0 +1,160 @@
+.bg-top{
+    padding-top: 56px;
+    min-height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url(https://img.business.com/w/700/aHR0cHM6Ly9pbWFnZXMuYnVzaW5lc3NuZXdzZGFpbHkuY29tL2FwcC91cGxvYWRzLzIwMjIvMDQvMDQwNzQ1NTMvMTU1NDI0NDAxMC5qcGVn);
+}
+.layer{
+    position: relative;
+    top: 0;
+    left:0;
+    z-index: 2;
+    height: 550px;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.7);
+}
+.fix-index{
+    z-index: 3;
+}
+.txt-color{
+    color: white;
+    font-size: 35px;
+    padding-top: 40px;
+}
+.modal-backdrop {
+    position: relative;
+    z-index: 9999;
+    
+}
+.modal-dialog{
+    max-width: 550px;
+    width:80%;
+    margin: 0 auto;
+    position: fixed;
+    top:15%;
+    left:50%;
+    transform: translateX(-50%) !important;
+}
+.fa-circle-arrow-down{
+    font-size: 35px;
+    color: white;
+}
+.div-arrow{
+    --bs-gutter-x: 0;
+}
+.diferenciais{
+    padding: 15px 0;
+}
+.diferenciais i{
+    font-size: 25px;
+}
+.diferenciais h2{
+    margin-bottom: 20px;
+}
+.dif-icons{
+    width: 100%;
+    height: auto;
+    border-bottom: 4px dotted ;
+    padding: 5px;
+}
+.notifications{
+
+    width: 100%;
+    background-color: #0B5ED7;
+    padding: 40px 0;
+}
+.notifications .container{
+    width: 100%;
+    height: auto;
+}
+.form-container input{
+    width: 42%;
+    border: 0;
+    border-radius: 4px;
+    padding: 1px 6px;
+    outline: 0;
+}
+.notifications button{
+    width: 14%;
+    border: 0;
+    border-radius: 4px;
+    padding: 1px 6px;
+    outline: 0;
+    color: white;
+    background-color: #1371ff;
+
+}
+.form-container{
+    margin-top: 4px;
+    width: 64%;
+    display: flex !important;
+}
+.bell-container{
+    text-align: right;
+    width: 35%;
+    margin-right: 1%;
+}
+.notifications .container, .notifications .form-container{
+    display: flex;
+    justify-content:center;
+}
+.notifications .fa-bell, .notifications span{
+    color: white;
+}
+.container-footer .nav{
+    --bs-nav-link-padding-y: 0;
+}
+.sect-contato label[for="floatingTextarea"]{
+    margin-bottom: 0.5rem;
+}
+@media screen and (max-width:770px) {
+    .txt-color{
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 27px;
+    }
+    .container{
+        padding: 15px 20px;
+    }
+    .lista-form{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .lista-form .col-md-5{
+       margin:10px 0 !important; 
+    }
+    .my-4{
+        margin-bottom: 0 !important;
+    }
+    .container-footer ul{
+    justify-content: center;
+    }
+    .form-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+   .notifications .container{
+        display: block;
+    }
+    .bell-container{
+        text-align: center;
+        width: 100%;
+        margin-right: 0;
+    }
+    .form-container input{
+        display: block;
+        width: 100% !important;
+        margin: 7px 0;
+    }
+    .notifications button{
+        display: block;
+        width: 50%;
+        margin: 7px auto;
+    
+    }
+}
